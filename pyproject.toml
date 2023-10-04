@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tap-klass"
+name = "tap-ssb-klass"
 version = "0.0.1"
-description = "`tap-klass` is a Singer tap for klass, built with the Meltano Singer SDK."
+description = "`tap-ssb-klass` is a Singer tap for klass, built with the Meltano Singer SDK."
 readme = "README.md"
 authors = ["Henning Holgersen <hho@cerx.co>"]
 keywords = [
@@ -52,4 +52,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # CLI declaration
-tap-klass = 'tap_klass.tap:Tapklass.cli'
+tap-ssb-klass = 'tap_ssb_klass.tap:Tapklass.cli'

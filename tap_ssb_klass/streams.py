@@ -7,7 +7,7 @@ from pathlib import Path
 
 from singer_sdk import typing as th  # JSON Schema typing helpers
 
-from tap_klass.client import klassStream
+from tap_ssb_klass.client import klassStream
 
 
 # TODO: - Override `UsersStream` and `GroupsStream` with your own stream definition.

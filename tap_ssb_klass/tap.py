@@ -6,13 +6,13 @@ from singer_sdk import Tap
 from singer_sdk import typing as th  # JSON schema typing helpers
 
 # TODO: Import your custom stream types here:
-from tap_klass import streams
+from tap_ssb_klass import streams
 
 
 class Tapklass(Tap):
     """klass tap class."""
 
-    name = "tap-klass"
+    name = "tap-ssb-klass"
 
     # TODO: Update this section with the actual config values you expect:
     config_jsonschema = th.PropertiesList(
