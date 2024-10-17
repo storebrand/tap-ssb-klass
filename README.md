@@ -1,3 +1,6 @@
+# ⚠️ This repository is no longer being maintained
+Storebrand have moved on from Meltano, and we're therefore no longer maintaining this repository. 
+
 # tap-klass
 
 `tap-klass` is a Singer tap for Statistics Norway's Klass API for codes and classifications: https://www.ssb.no/en/klass/
